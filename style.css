@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eefff2;
+}
+
+#questionImage {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+span {
+    color: #53c13776;
+} 
+
+.quiz-animal {
+    background: #fff;
+    width: 60vh;
+    height: 60vh;
+    max-width: 600px;
+    margin: 30px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 0 10px #ffffff;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 15px #53c13776;
+
+}
+
+.quiz-animal h1 {
+    margin-top: -30px;
+    font-size: 70px;
+    color: #53c13776;
+}
+
+.quiz-animal img {
+    height: 30vh;
+    width: 42vh;
+}
+.quiz-animal button {
+    font-weight: 700;
+    padding: 9px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 30vh;
+    border: none;
+    background-color: #53c13776;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.quiz-animal button:hover {
+    background-color: #80f9a0;
+}
+
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 0 10px #ffffff;
+    display: none;
+    box-shadow: 0 0 15px #53c13776, 0 0 15px #53c13776;
+}
+
+.app h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #37004d;
+    font-weight: 800;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 19px;
+    color:#001e4d;
+    font-weight: 600;
+}
+
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 1000;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #53c13776;
+    color: #fff;
+    
+}
+.btn:disabled {
+    cursor:no-drop ;
+}
+
+#next-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 5px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: #80f9a0;
+}
+
+.Incorrect {
+    background: #ff7070;
+}
+
